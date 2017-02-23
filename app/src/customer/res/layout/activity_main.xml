@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    tools:context="com.example.codetribe.dineinstyle.ManagerMainActivity">
+
+    <include layout="@layout/profile_toolbar"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where Are You Currently At?"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:id="@+id/home_image_button"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/restaurant_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_restaurant_menu_black_24dp"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+            android:text="At The Restaurant"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"/>
+
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_home_black_24dp"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:text="At Home"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="30dp"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

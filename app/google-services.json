@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1022028496371",
+    "firebase_url": "https://dineinstyle-80f2a.firebaseio.com",
+    "project_id": "dineinstyle-80f2a",
+    "storage_bucket": "dineinstyle-80f2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022028496371:android:8119ab2c443d62c6",
+        "android_client_info": {
+          "package_name": "com.example.codetribe.dineinstyle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022028496371-j5gv6k6cdnlq2js3ptk94sporrkd9qkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.codetribe.dineinstyle",
+            "certificate_hash": "35B3AB98D1699E6845AEF32FD817062ACA4BF6BC"
+          }
+        },
+        {
+          "client_id": "1022028496371-dn0cgvf3nlosrml627i77k3tmpamtp2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtNZnW4M5btL-ULnDTG0OHObnMKTNGCH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022028496371-dn0cgvf3nlosrml627i77k3tmpamtp2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

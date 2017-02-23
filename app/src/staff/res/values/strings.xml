@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Dine In Style (Staff)</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_name">First Name</string>
+    <string name="prompt_surname">Last Surname</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_name">First Name is invalid</string>
+    <string name="error_invalid_surname">Last Name address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="welcome_message">Welcome To \n Dine In Style</string>
+    <string name="web_client_id">1022028496371-dn0cgvf3nlosrml627i77k3tmpamtp2m.apps.googleusercontent.com</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_new_user">Create New Dine In Style User</string>
+    <string name="sign_in_text">Sign In To Dine In Style</string>
+
+    <string name="facebook_app_id">267005300368683</string>
+
+    <string name="name_text">Name: </string>
+    <string name="age_text">Age: </string>
+    <string name="experience_text">Experience: </string>
+    <string name="set_profile_text">Setup Your Profile</string>
+    <string name="finish_setup">Finish</string>
+    <string name="title_activity_staff_login">Sign in</string>
+    <string name="enter_waiter_info">Enter Waiter Information</string>
+    <string name="add_new_waiter">Add Waiter</string>
+    <string name="select_date_of_birth">Select Date Of Birth</string>
+    <string name="prompt_experience">Months Experience</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="age">Age</string>
+
+</resources>

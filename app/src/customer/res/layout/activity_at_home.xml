@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/appBackground"
+    tools:context="com.example.codetribe.dineinstyle.AtHome">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What Would You Like To Do Today?"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+
+    <Button
+        android:id="@+id/place_order"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingRight="80dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_add_shopping_cart_black_24dp"
+        android:text="Place An Order" />
+
+
+    <Button
+        android:id="@+id/book_reservations"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingRight="80dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_border_color_black_24dp"
+        android:text="Book Reservations" />
+
+</LinearLayout>
